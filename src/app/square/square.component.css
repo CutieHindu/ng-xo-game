@@ -32,7 +32,7 @@ button {
   line-height: 1;
   text-decoration: none;
   color: #fff;
-  
+  background-color: transparent;
 }
 
 .x:nth-child(1) {
@@ -58,7 +58,7 @@ button {
   }
 }
 
-@keyframes x {
+@keyframes o {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000FFF,
       0 0 70px #000FFF, 0 0 80px #000FFF, 0 0 100px #000FFF, 0 0 150px #000FFF;
@@ -69,14 +69,16 @@ button {
   }
 }
 
+
 @media (max-width: 650px) {
   p {
     font-size: 3.5em;
   }
 }
 
-@media (max-width: 600px) {
-  .sq {
+
+@media (max-width: 700px) {
+  button {
     text-align: center;
     /* font-size: 7em; */
     margin-bottom: 0;
@@ -87,10 +89,35 @@ button {
     color: #fff;
     margin-left: 151px;
   }
+  
+  button{
+      border-radius: 15px;
+      box-shadow: 0px 0px 12px -2px #ffff;
+      background-color: black;
+      box-shadow: rgb(255 119 255 / 46%) -6px 5px, rgb(255 119 255 / 9%) -10px 1px, rgb(255 119 255 / 20%) -15px 15px;
+      /* box-shadow: rgb(240 46 170 / 40%) 0px 5px, rgb(240 46 170 / 30%) 0px 10px, rgb(240 46 170 / 20%) 0px 15px, rgb(240 46 170 / 10%) 0px 20px, rgb(240 46 170 / 5%) 0px 25px; */
+  }
+
+  button{
+    font-size: 2em !important;
+    background-color: transparent;
+  }
+  button{
+      width: 50%;
+      height: 50%;
+      font-size: 2em !important;
+      font-family: Papyrus, fantasy;
+      font-size: 24px;
+      font-style: normal;
+      font-feature-settings: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 26.4px;
+  }
   }
 
   @media (max-width: 500px) {
-    .sq {
+    button {
       text-align: center;
       /* font-size: 7em; */
       margin-bottom: 0;
@@ -100,10 +127,32 @@ button {
       border: antiquewhite;
       color: #fff;
       margin-left: 94px;
+    }
+    
+    button{
+        border-radius: 15px;
+        box-shadow: 0px 0px 12px -2px #ffff;
+        background-color: black;
+        box-shadow: rgb(255 119 255 / 46%) -6px 5px, rgb(255 119 255 / 9%) -10px 1px, rgb(255 119 255 / 20%) -15px 15px;
+        /* box-shadow: rgb(240 46 170 / 40%) 0px 5px, rgb(240 46 170 / 30%) 0px 10px, rgb(240 46 170 / 20%) 0px 15px, rgb(240 46 170 / 10%) 0px 20px, rgb(240 46 170 / 5%) 0px 25px; */
+    }
+    button{
+        width: 50%;
+        height: 50%;
+        font-size: 2em !important;
+        font-family: Papyrus, fantasy;
+        font-size: 24px;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+        background-color: transparent;
+
     }
     }
   @media (max-width: 400px) {
-    .sq {
+    button {
       text-align: center;
       /* font-size: 7em; */
       margin-bottom: 0;
@@ -113,5 +162,25 @@ button {
       border: antiquewhite;
       color: #fff;
       margin-left: 94px;
+    }
+    
+    button{
+        border-radius: 15px;
+        box-shadow: 0px 0px 12px -2px #ffff;
+        background-color: black;
+        box-shadow: rgb(255 119 255 / 46%) -6px 5px, rgb(255 119 255 / 9%) -10px 1px, rgb(255 119 255 / 20%) -15px 15px;
+        /* box-shadow: rgb(240 46 170 / 40%) 0px 5px, rgb(240 46 170 / 30%) 0px 10px, rgb(240 46 170 / 20%) 0px 15px, rgb(240 46 170 / 10%) 0px 20px, rgb(240 46 170 / 5%) 0px 25px; */
+    }
+    button{
+        width: 50%;
+        height: 50%;
+        font-size: 2em !important;
+        font-family: Papyrus, fantasy;
+        font-size: 24px;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
     }
     }

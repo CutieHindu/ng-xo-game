@@ -1,14 +1,15 @@
 
 
 
-<p class="title">Welcome to my XO Game</p>
 <div class="center">
-    <h1 *ngIf="player =='X'" class="x">{{ player }} Turn</h1>
-    <h1 *ngIf="player =='O'" class="o">{{ player }} Turn</h1>
+    <p class="title">Welcome to my XO Game</p>
 
-
-
-
+    <h1 *ngIf="player =='X' && !winner">{{ player }} Turn</h1>
+    <h1 *ngIf="player =='O' && !winner">{{ player }} Turn</h1>
+    <p class="won" *ngIf="winner" >
+        Player <span *ngIf="winner =='X'" class="x">{{winner}} </span><span *ngIf="winner =='O'" class="o">{{winner}} </span> 
+        won the game!
+    </p>
 <main>
     <app-square
     *ngFor="let val of squares; let i = index"
@@ -16,16 +17,14 @@
     (click)="makeMove(i)">
     </app-square>
 </main>
-<p class="won" *ngIf="winner">
-    Player {{winner}} won the game!
-</p>
+
 <button nbButton outline status="danger" (click)="NewGame()" >
     <span></span>
     <span></span>
     <span></span>
     <span></span>
      Start new Game </button> 
-    </div>
+</div>
 
 
 

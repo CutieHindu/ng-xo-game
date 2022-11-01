@@ -28,7 +28,7 @@ button{
     display: inline-block;
     padding: 25px 30px;
     margin: 40px 0;
-    color: #03e9f4;
+    color: #FF86FF;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -36,7 +36,9 @@ button{
     overflow: hidden;   
     background-color: black;
     border: none;
+    font-size: 25px;
 }
+
 button:hover{
     background: #FF86FF;
     color: #050801;
@@ -126,7 +128,7 @@ button span:nth-child(4){
         bottom: 100%;
     }
 } 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     main{
         display: grid;
         grid-template-rows: 141px 141px 141px;
@@ -161,7 +163,6 @@ button span:nth-child(4){
         grid-template-columns: repeat(3, 3fr);
     }
 }
-
 
 
 @keyframes textclip {
@@ -441,5 +442,31 @@ overflow: hidden;
     opacity: 1;
   }
 }
+
+.x:nth-child(1) {
+    font-family: Monoton;
+    animation: x 1.5s ease-in-out infinite alternate;
+    font-size: 80px;
+  }
+  
+  .o:nth-child(1) {
+    font-family: Iceland;
+    animation: o 1.5s ease-in-out infinite alternate;
+    font-size: 80px;
+  }
+  
+  /*glow*/
+  
+  @keyframes x {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+    }
+  }
+  
 
 
