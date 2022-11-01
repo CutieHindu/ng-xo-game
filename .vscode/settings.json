@@ -1,0 +1,17 @@
+{
+    "peacock.affectDebuggingStatusBar": false,
+    "peacock.affectEditorGroupBorder": false,
+    "peacock.affectPanelBorder": false,
+    "peacock.affectSashHover": true,
+    "peacock.affectStatusBar": true,
+    "workbench.colorCustomizations": {
+        "sash.hoverBorder": "#b69ccb",
+        "sideBar.border": "#b69ccb",
+        "statusBar.background": "#9e7bb9",
+        "statusBar.border": "#9e7bb9",
+        "statusBarItem.hoverBackground": "#865aa7",
+        "statusBarItem.remoteBackground": "#9e7bb9",
+        "tab.activeBorder": "#b69ccb"
+    },
+    "peacock.color": "#9E7BB9"
+}

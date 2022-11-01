@@ -1,36 +1,27 @@
-button { width: 100%; height: 100%; font-size: 5em !important;
+button { width: 80%; height: 80%; font-size: 5em !important;
     font-family: Papyrus, fantasy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 
 HTML CSS JSResult Skip Results Iframe
 EDIT ON
 body {
-  background-color: #222222;
-  background: repeating-linear-gradient(
-      45deg,
-      #2b2b2b 0%,
-      #2b2b2b 10%,
-      #222222 0%,
-      #222222 50%
-    )
-    0 / 15px 15px;
+  background-color: black;
 }
 
-button:hover{
+
+
+/* button:hover{
     box-shadow:2px 8px 4px -6px #ffff;
- } 
+ }  */
  button{
-    border:solid 7px #41403E;
+    /* border:solid 2px; */
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 12px -2px  #ffff;
+    background-color: black;
+    box-shadow: rgba(255, 119, 255, 0.6) -5px 5px, rgba(255, 119, 255, 0.4) -10px 10px, rgba(255, 119, 255, 0.3) -15px 15px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
  }
-
-
-
-#container {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
 
 /*Neon*/
 button {
@@ -41,6 +32,7 @@ button {
   line-height: 1;
   text-decoration: none;
   color: #fff;
+  
 }
 
 .x:nth-child(1) {
@@ -51,26 +43,6 @@ button {
 .o:nth-child(1) {
   font-family: Iceland;
   animation: o 1.5s ease-in-out infinite alternate;
-}
-
-button:nth-child(3) {
-  font-family: Pacifico;
-  animation: neon3 1.5s ease-in-out infinite alternate;
-}
-
-button:nth-child(4) {
-  font-family: "Press Start 2P";
-  animation: neon4 1.5s ease-in-out infinite alternate;
-}
-
-button:nth-child(5) {
-  font-family: Audiowide;
-  animation: neon5 1.5s ease-in-out infinite alternate;
-}
-
-button:nth-child(6) {
-  font-family: Vampiro One;
-  animation: neon6 1.5s ease-in-out infinite alternate;
 }
 
 /*glow*/
@@ -85,72 +57,17 @@ button:nth-child(6) {
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
-@keyframes o {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #b6ff00,
-        0 0 70px #b6ff00, 0 0 80px #b6ff00, 0 0 100px #b6ff00, 0 0 150px #b6ff00;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #b6ff00,
-        0 0 35px #b6ff00, 0 0 40px #b6ff00, 0 0 50px #b6ff00, 0 0 75px #b6ff00;
-    }
-  }
 
-@keyframes neon2 {
+@keyframes x {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
-      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000FFF,
+      0 0 70px #000FFF, 0 0 80px #000FFF, 0 0 100px #000FFF, 0 0 150px #000FFF;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
-      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #000FFF,
+      0 0 35px #000FFF, 0 0 40px #000FFF, 0 0 50px #000FFF, 0 0 75px #000FFF;
   }
 }
-
-@keyframes neon3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
-      0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
-      0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
-  }
-}
-
-@keyframes neon4 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #b6ff00,
-      0 0 70px #b6ff00, 0 0 80px #b6ff00, 0 0 100px #b6ff00, 0 0 150px #b6ff00;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #b6ff00,
-      0 0 35px #b6ff00, 0 0 40px #b6ff00, 0 0 50px #b6ff00, 0 0 75px #b6ff00;
-  }
-}
-
-@keyframes neon5 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff9900,
-      0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 100px #ff9900, 0 0 150px #ff9900;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
-      0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
-  }
-}
-
-@keyframes neon6 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-      0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
-      0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-  }
-}
-/*Make stuff responsive*/
 
 @media (max-width: 650px) {
   p {
@@ -158,3 +75,43 @@ button:nth-child(6) {
   }
 }
 
+@media (max-width: 600px) {
+  .sq {
+    text-align: center;
+    /* font-size: 7em; */
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    text-decoration: none;
+    border: antiquewhite;
+    color: #fff;
+    margin-left: 151px;
+  }
+  }
+
+  @media (max-width: 500px) {
+    .sq {
+      text-align: center;
+      /* font-size: 7em; */
+      margin-bottom: 0;
+      margin-top: 0;
+      line-height: 1;
+      text-decoration: none;
+      border: antiquewhite;
+      color: #fff;
+      margin-left: 94px;
+    }
+    }
+  @media (max-width: 400px) {
+    .sq {
+      text-align: center;
+      /* font-size: 7em; */
+      margin-bottom: 0;
+      margin-top: 0;
+      line-height: 1;
+      text-decoration: none;
+      border: antiquewhite;
+      color: #fff;
+      margin-left: 94px;
+    }
+    }
