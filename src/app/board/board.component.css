@@ -34,7 +34,7 @@ button{
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;   
-    background-color: black;
+    background-color: transparent;
     border: none;
     font-size: 25px;
 }
